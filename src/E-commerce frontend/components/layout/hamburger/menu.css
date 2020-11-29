@@ -1,0 +1,54 @@
+.menu{
+    background-color:  rgba(0, 0, 0, 0.9) !important ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    position: fixed;
+    transition: all 0.5s ease-out;
+    visibility: hidden;
+}
+
+.menu .navbar-nav{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .navbar-nav .nav-link{
+    color: white;
+    padding: 2em;
+    letter-spacing: 0.4em;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.menu .navbar-nav .nav-link:hover{
+   text-decoration: underline;
+   color: rgb(106, 106, 129);
+}
+
+.menu .close-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu h1{
+    text-align: end;
+    padding:1em 2em;
+    cursor: pointer;
+    color: white;
+}
+
+.menu h1:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+@media screen and (max-width: 600px){
+    .menu{
+        visibility: visible;
+    }
+
+}

@@ -1,0 +1,15 @@
+.header{
+    display: flex !important;
+    justify-content: space-between;
+}
+
+
+.headerLogo img{
+    width: 5rem;
+}
+
+@media screen and (max-width: 900px){
+    .header {
+        justify-content: space-between !important;
+    }
+}

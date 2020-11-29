@@ -1,0 +1,98 @@
+.cartHeader {
+  margin-top: 3rem;
+}
+
+.tableArea .table img {
+  width: 8rem;
+  height: 6rem;
+}
+
+.tableArea .table .tableImage {
+  display: flex;
+  flex-direction: row;
+}
+
+.tableArea .table .imgName {
+  padding-left: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tableArea .table button,
+.smallerScreen button {
+  background-color: white;
+  border: 1px solid transparent;
+  outline: transparent;
+}
+
+.tableArea .table button:hover,
+.smallerScreen button:hover {
+  background-color: rgb(240, 231, 231);
+}
+
+.smallerScreen {
+  display: none !important;
+}
+
+@media screen and (max-width: 900px) {
+  .cartHeader {
+    margin-top: 2rem;
+    letter-spacing: 1px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .tableArea .table .tableImage {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tableArea .tableImage img {
+    width: 5rem;
+  }
+
+  .tableArea .table .imgName {
+    padding-left: unset;
+    letter-spacing: unset;
+    font-weight: bold;
+  }
+
+  .tableArea .table button {
+   display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .tableArea {
+    display: none;
+  }
+
+  .smallerScreen {
+    display: block !important;
+    margin-top: 3rem;
+  }
+  .smallerScreen .cart {
+    display: flex;
+  }
+
+  .smallerScreen .cartItem img {
+    width: 2rem;
+  }
+
+  .smallerScreen .cartInfo {
+    position: relative;
+    top: 1.5rem;
+    right: 1rem;
+    font-weight: bold;
+  }
+
+  .smallerScreen .cartItem span {
+    font-weight: bold;
+  }
+
+  .smallerScreen .smallQuantityArea {
+    display: none;
+    justify-content: flex-end;
+    margin-right: 1rem;
+  }
+}

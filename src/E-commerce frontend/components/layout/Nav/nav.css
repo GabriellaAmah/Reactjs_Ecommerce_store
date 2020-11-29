@@ -1,0 +1,49 @@
+
+.brand{
+    padding: 1em;
+    font-size: 0.4em;
+    letter-spacing: 1px;
+    font-family: verdana;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand h3{
+    padding-top: 0.5em;
+    font-weight: bold;
+}
+
+
+.headerLogo{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navbar li{
+    padding-right: 1rem;
+}
+
+.navbar li a{
+    font-size: 17px !important;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar .navButton{
+    background-color: white;
+    border: 1px solid transparent;
+    outline: transparent;
+    max-width: 5% !important;
+}
+
+
+@media screen and (max-width: 900px){
+    button {
+       padding:1em 5em !important;
+    }
+
+    .navbar{
+        padding-left: 5em !important;
+    }
+}

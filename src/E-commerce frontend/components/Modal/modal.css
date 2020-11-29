@@ -1,0 +1,9 @@
+.modal {
+    width: 80%;
+}
+
+@media screen and (max-width : 500px){
+    .modal{
+        width: 60%;
+    }
+}

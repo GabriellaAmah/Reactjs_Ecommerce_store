@@ -1,0 +1,23 @@
+
+.promo-section{
+    margin-top: 5%;
+    background-color: #e6f2ff;
+    padding: 2rem;
+    overflow-x: hidden !important;
+    width: 100%;
+}
+
+.promo-section h2{
+    letter-spacing: 1px;
+    font-family: verdana;
+}
+
+.promo-section p{
+    padding-top: 1rem;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 0.5em;
+}

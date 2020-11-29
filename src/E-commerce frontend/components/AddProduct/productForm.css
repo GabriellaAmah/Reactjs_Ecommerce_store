@@ -1,0 +1,17 @@
+.formArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    min-width: 100% !important;
+}
+
+.form{
+    width: 30%;
+}
+
+@media screen and (max-width: 500px){
+    .form{
+        width : 80%;
+    }
+}

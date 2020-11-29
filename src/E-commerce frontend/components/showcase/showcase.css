@@ -1,0 +1,84 @@
+.showCaseImage img{
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 25rem;
+    margin: 3rem;
+    transition: ease-in-out 2s;
+}
+
+.showCaseInfo{
+    margin-top: 10rem;
+}
+
+.showCaseInfo h2{
+    letter-spacing: 1px;
+}
+
+.showCaseInfo p{
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+.showCaseInfo .exploreArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    transition: all 0.5s;
+}
+
+.showCaseInfo .explore span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.showCaseInfo .explore Link {
+    color: white !important;
+}
+  
+.showCaseInfo .explore span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.showCaseInfo .explore:hover span {
+    padding-right: 25px;
+}
+  
+.showCaseInfo .explore:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.showcaseContainer{
+    display: flex;
+    margin-top: 5em;
+}
+
+@media screen and (max-width: 600px){
+    .showCaseImage img{
+        margin: 3em 0;
+    }
+
+    .showCaseInfo{
+        margin: 5rem 10%;
+    }
+
+    .showcaseContainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+    
+}
+

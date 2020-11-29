@@ -1,0 +1,8 @@
+.cartButton{
+    width: 100%;
+    margin-bottom: 4em;
+}
+
+.cartButton .btn{
+padding: 1em 5em;
+}
