@@ -39,8 +39,15 @@
 
 
 @media screen and (max-width: 900px){
+    .brand{
+        padding:1em 1em 1em 0;
+        font-size: 0.1em;
+    }
+    
     button {
        padding:1em 5em !important;
+       position: relative;
+       right: 4em;
     }
 
     .navbar{
