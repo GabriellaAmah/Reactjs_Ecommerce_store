@@ -86,7 +86,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 2em;
+        position: relative;
+        bottom: 6em;
     }
     
 }

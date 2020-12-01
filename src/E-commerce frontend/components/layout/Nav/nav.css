@@ -43,6 +43,12 @@
         padding:1em 1em 1em 0;
         font-size: 0.1em;
     }
+
+
+    .brand h3{
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+    }
     
     button {
        padding:1em 5em !important;
