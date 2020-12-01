@@ -5,7 +5,7 @@ import './showcase.css'
 
 const ShowcaseContainer = () => {
     return (
-        <div className='showcaseContainer'>
+        <div className='showcaseContainer '>
             <ShowcaseImage />
             <ShowcaseText />
         </div>

@@ -3,7 +3,7 @@ import ShowcaseContainer from '../../showcase/ShowcaseContainer'
 
 const Home = () => {
     return (
-        <div>
+        <div style={{width : '100%' , marginLeft: '1rem'}}>
             <ShowcaseContainer />
         </div>
     )

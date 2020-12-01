@@ -66,17 +66,26 @@
 }
 
 @media screen and (max-width: 600px){
+   
     .showCaseImage img{
         margin: 3em 0;
+        width: 20rem;
+        height: 20rem;
     }
 
     .showCaseInfo{
-        margin: 5rem 10%;
+        margin: 1rem 10%;
+    }
+
+    .showCaseInfo h2{
+        font-size: 1.5em;
     }
 
     .showcaseContainer{
+        width: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         margin-top: 2em;
     }
     

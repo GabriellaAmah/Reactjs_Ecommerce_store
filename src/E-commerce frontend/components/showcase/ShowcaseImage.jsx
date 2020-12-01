@@ -20,7 +20,7 @@ const ShowcaseImage = () => {
   });
 
   return (
-    <div className="showCaseImage">
+    <div className="showCaseImage d-flex justify-content-center ">
       <img
         className="image-responsive image-fluid spotImage"
         src={image}
