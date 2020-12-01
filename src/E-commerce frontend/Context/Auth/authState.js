@@ -38,7 +38,10 @@ export const AuthProvider = ({ children }) => {
             loginFormData.append("email", email);
             loginFormData.append("password", password);
 
+
+
             const loginData = await axios.post(LOGIN_ROUTE, loginFormData);
+
 
             dispatch({
                 type: LOGIN,

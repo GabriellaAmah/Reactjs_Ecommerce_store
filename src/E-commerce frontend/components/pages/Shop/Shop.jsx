@@ -4,6 +4,8 @@ import Product from "../../Products/Product";
 import Promo from "../../PopUp/Promo";
 import { ShopContext } from "../../../Context/shop/shopState";
 import ModalBox from "../../Modal/Modal";
+import  Spinner from "../../Spinner/spinner"
+
 
 const Shop = () => {
   const {
@@ -15,11 +17,9 @@ const Shop = () => {
   } = useContext(ShopContext);
   const [modalShow, setModalShow] = useState(false);
 
-  
   useEffect(() => {
     getProduct();
   }, []);
-  
 
   const productDetail = async (id) => {
     await getProductDetail(id);
@@ -39,13 +39,13 @@ const Shop = () => {
       />
       <Promo />
       {loading ? (
-        <h1>product loading.....</h1>
+       <Spinner />
       ) : (
         <Product
           products={products}
           productDetail={productDetail}
           idName="accesories"
-          response = "No products available"
+          response="No products available"
         />
       )}
     </div>

@@ -36,12 +36,12 @@ const SignupForm = (props) => {
 
   return (
     <div>
-      <div className="formArea">
+      <div className="formArea  ">
         <ToastContainer />
-        <Form method="post" className='form' onSubmit={handleSubmit}>
+        <Form method="post" className="form" onSubmit={handleSubmit}>
           <Col xs="auto">
             <Input
-            classname='p-4'
+              classname="p-4"
               label="name"
               type="text"
               name="name"
@@ -50,7 +50,7 @@ const SignupForm = (props) => {
             />
 
             <Input
-            classname='p-4'
+              classname="p-4"
               label="Email"
               type="email"
               name="email"
@@ -59,7 +59,7 @@ const SignupForm = (props) => {
             />
 
             <Input
-            classname='p-4'
+              classname="p-4"
               label="enter password"
               type="password"
               name="subPassword"
@@ -68,7 +68,7 @@ const SignupForm = (props) => {
             />
 
             <Input
-            classname='p-4'
+              classname="p-4"
               label="confirm password"
               type="password"
               name="confirmPassword"
@@ -80,7 +80,7 @@ const SignupForm = (props) => {
           </Col>
         </Form>
       </div>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center loginText">
         <p>already a member ? </p>
         <div className="text-primary pl-2">
           <Link to="/login">Login</Link>

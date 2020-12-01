@@ -21,3 +21,18 @@
 .btn{
     margin-top: 0.5em;
 }
+
+@media screen and (max-width: 500px){
+    .promo-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .promo-section p{
+        letter-spacing: 0.5px;
+        font-size: 15px;
+    }
+
+    .btn{
+        padding: 0.5em !important;
+    }
+}

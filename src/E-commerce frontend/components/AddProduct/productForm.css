@@ -1,8 +1,7 @@
 .formArea{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 80vh;
+    height: 70vh;
     min-width: 100% !important;
 }
 
@@ -10,8 +9,22 @@
     width: 30%;
 }
 
+.loginText{
+    padding-top: 2em;
+    padding-right: 11em;
+}
+
 @media screen and (max-width: 500px){
-    .form{
-        width : 80%;
+    .form {
+        width: 80%;
+    }
+    .formArea{
+        width: 80%;
+        height: 60vh;
+    }
+
+    .loginText {
+        padding-top: unset;
+        padding-right: 4em;
     }
 }
