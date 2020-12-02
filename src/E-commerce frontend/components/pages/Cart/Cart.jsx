@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { CartContext } from "../../../Context/Cart/cartState";
 import ExploreButton from "../../Buttton/button";
+import Spinner from "../../Spinner/spinner";
 import CardTable from "../../Table/CardTable";
 import SmallCartTable from "../../Table/SmallCartTable";
 import './Cart.css'
@@ -15,7 +16,7 @@ const Cart = () => {
   return (
     <div>
       {loading ? (
-        <h3>loading cart items</h3>
+        <Spinner />
       ) : (
         <>
           <div>
