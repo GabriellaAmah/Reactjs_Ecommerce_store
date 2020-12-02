@@ -11,7 +11,7 @@ const Success = () => {
       <div className="text-center">
         <img src={image} alt="sucess page" width="25%" />
         <h5 className='pt-4'>This process has been  sucessfully concluded</h5>
-        <Link to="/shop">go back to home page</Link>
+        <Link to="/">go back to home page</Link>
       </div>
     </div>
   );
