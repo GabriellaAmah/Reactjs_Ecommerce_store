@@ -39,7 +39,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://ecommerce-store-api.herokuapp.com/",
+  "proxy": "https://ecommerce-store-api.herokuapp.com",
   "engines": {
     "node": "12.18.0"
   }
