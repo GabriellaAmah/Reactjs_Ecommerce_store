@@ -30,7 +30,7 @@ const App = () => {
                                 <Switch>
                                     <PrivateRoute exact path="/product/detail/:id" component={Detail} />
                                     <PrivateRoute exact path="/cart" component={Cart} />
-                                    <PrivateRoute exact path="/sucess" component={SuccessComponent} />
+                                    <Route exact path="/sucess" component={SuccessComponent} />
                                     <Route path="/products" component={Shop} />
                                     <PrivateRoute path="/post-product" component={ProductForm} />
                                     <Route exact path="/signup" component={SignupForm} />
